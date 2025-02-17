@@ -1,5 +1,5 @@
-Algoritmo MenúSopaDeLetrasPSeInt
-    Definir forma, opcion2, opcion3, numpalabras, i Como Entero
+Algoritmo MenÃºSopaDeLetrasPSeInt
+Definir forma, opcion2, opcion3, numpalabras, i Como Entero
     Definir palabra, nombre, palabraAntigua, palabraNueva, palabraEliminar Como Cadena
     Definir palabras Como Cadena
     Dimensionar palabras[100]
@@ -12,8 +12,8 @@ Algoritmo MenúSopaDeLetrasPSeInt
     Hasta Que Longitud(nombre) > 0
     
     Mientras (opcion2 <> 3)
-        Escribir "Seleccione una opción"
-        Escribir " 1. Menú "
+        Escribir "Seleccione una opciÃ³n"
+        Escribir " 1. MenÃº "
         Escribir " 2. Jugar "
         Escribir " 3. Terminar Partida "
 		Escribir " 4. Historial de Partidas "
@@ -34,7 +34,7 @@ Algoritmo MenúSopaDeLetrasPSeInt
                     
                     Segun opcion3 Hacer
                         Caso 1:
-                            Escribir "Ingrese el número de palabras que desea insertar"
+                            Escribir "Ingrese el nÃºmero de palabras que desea insertar"
                             Leer numpalabras
                             
                             Para i <- 1 Hasta numpalabras Hacer
@@ -96,10 +96,10 @@ Algoritmo MenúSopaDeLetrasPSeInt
                             FinSi
 							
                         Caso 4:
-                            Escribir "Saliendo del menú..."
+                            Escribir "Saliendo del menÃº..."
                             opcion2 <- 0  
                         De Otro Modo:
-                            Escribir "---Opción inválida---"
+                            Escribir "---OpciÃ³n invÃ¡lida---"
                     FinSegun
                 FinMientras
 				
@@ -115,12 +115,12 @@ Algoritmo MenúSopaDeLetrasPSeInt
                 Escribir "Top de los 3 mejores jugadores"
 				opcion2 <- 0 
 			Caso 6:
-                Escribir "Kimberly Samantha Gómez Chávez"
+                Escribir "Kimberly Samantha GÃ³mez ChÃ¡vez"
 				Escribir "202402473"
-				Escribir "Sección: B"
+				Escribir "SecciÃ³n: B"
 				opcion2 <- 0 
             De Otro Modo:
-                Escribir "---Opción inválida---"
+                Escribir "---OpciÃ³n invÃ¡lida---"
         FinSegun
     FinMientras
 FinAlgoritmo
